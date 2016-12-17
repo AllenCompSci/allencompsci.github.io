@@ -1,0 +1,85 @@
+html, body {
+    transition: all 0.5s ease-in-out;
+    background-color: #222;
+    color: #eee;
+    margin: 0;
+    padding: 0;
+}
+
+.rotate_please {
+  margin-top: 110px;
+}
+
+.qt_please {
+  margin-top: 600px;
+}
+
+/* The console container element */
+
+#console {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-color: #222;
+    border: none;
+    margin: 0 auto;
+    margin-top: 0px;
+}
+
+/* The inner console element. */
+
+.jqconsole {
+    padding: 30px;
+}
+
+/* The cursor. */
+
+.jqconsole-cursor {
+    color: #eee;
+    /*position: relative !important;*/
+    opacity: 0.5;
+    background-color: white;
+}
+
+/* The cursor color when the console loses focus. */
+
+.jqconsole-blurred .jqconsole-cursor {
+    color: white;
+    background-color: white;
+}
+
+/* The current prompt text color */
+
+.jqconsole-prompt {
+    color: #eee;
+}
+
+/* The command history */
+
+.jqconsole-old-prompt {
+    color: #eee;
+    font-weight: normal;
+}
+
+/* The text color when in input mode. */
+
+.jqconsole-input {
+    color: #eee;
+}
+
+/* Previously entered input. */
+
+.jqconsole-old-input {
+    color: #858585;
+    font-weight: normal;
+}
+
+/* The text color of the output. */
+
+.jqconsole-output {
+    color: #858585;
+}
+
+.special, a {
+    color: #5CD6D6;
+}
