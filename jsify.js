@@ -59,20 +59,20 @@ var data = {
 	}],
 	contact: "Feel free to send us an email (<a href='mailto:Taylor_Hudson@allenisd.org'>Taylor Hudson</a>) or contact a club executive (type <span class='special'>team</span>) individually.",
 	team: [{
-		name: specialify("Nimit") + " Kalra",
-		position: "Hackathon Coach + Webmaster"
+		name: specialify("Bobby") + " Thakkar",
+		position: "JEDI"
 	}, {
-		name: specialify("Dylan") + " Macalinao",
-		position: "Hackathon Coordinator"
+		name: specialify("Max") + " Patrick",
+		position: "Gambler"
 	}, {
-		name: specialify("Nathan") + " Contreras",
-		position: "Club Coordinator"
+		name: specialify("Taylor") + " Hudson",
+		position: "Provider of Room"
 	}, {
-		name: specialify("Jagath") + " Vytheeswaran",
-		position: "Competition Coach"
+		name: specialify("Aashay") + " Patel",
+		position: "Most absent officer"
 	}, {
-		name: specialify("David") + " Yuan",
-		position: "Competition Coordinator"
+		name: specialify("Bobby") + " Thakkar",
+		position: "Again, because he does so much."
 	}],
 	competitions: "Competition schedule coming soon!",
 	links: linkify(HighSchool, "http://www.allenisd.org/allenhs"),
