@@ -75,7 +75,7 @@ var data = {
 		position: "Again, because he does so much."
 	}],
 	competitions: "Competition schedule coming soon!",
-	links: linkify(HighSchool, "http://www.allenisd.org/allenhs"),
+	links: linkify(HighSchool, "http://www.allenisd.org/allenhs")
 	       linkify(Taylor Hudson, "https://www.allenisd.org/Domain/3279"),
 	showcase: [{
 		name: linkify("Cool Project Ideas?","http://github.com"),
