@@ -76,6 +76,7 @@ var data = {
 	}],
 	competitions: "Competition schedule coming soon!",
 	links: linkify(HighSchool, "http://www.allenisd.org/allenhs"),
+	       linkify(Taylor Hudson, "https://www.allenisd.org/Domain/3279"),
 	showcase: [{
 		name: linkify("Cool Project Ideas?","http://github.com"),
 		authors: "By <span class='special'>you</span>? Contact us if you've made a cool project you'd like featured!"
