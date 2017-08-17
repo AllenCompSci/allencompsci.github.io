@@ -76,8 +76,14 @@ var data = {
 	}],
 	competitions: "Competition schedule coming soon!",
 	links: [
-		{name : linkify(HighSchool, "http://www.allenisd.org/allenhs")},
-		{name : linkify(Taylor Hudson, "https://www.allenisd.org/Domain/3279")}
+		{
+			name : linkify(Allen High School, "http://www.allenisd.org/allenhs"),
+			description: "Link back to AHS" 
+		},
+		{
+			name : linkify(Taylor Hudson, "https://www.allenisd.org/Domain/3279"),
+			description: "Faculty Page"
+		}
 		],
 	showcase: [{
 		name: linkify("Cool Project Ideas?","http://github.com"),
