@@ -1,6 +1,6 @@
 ﻿var tilt = 0;
 
-var Teacher = "Taylor Hudson : Taylor_Hudson";
+var Teacher = "Taylor Hudson : Taylor.Hudson";
 
 var ClubPresident = "Bobby Thakkar";
 
