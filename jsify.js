@@ -57,22 +57,19 @@ var data = {
 		name: specialify("twitter"),
 		description: linkify("@EagleHacks", "https://twitter.com/eaglehacks")
 	}],
-	contact: "Feel free to send us an email (<a href='mailto:Taylor_Hudson@allenisd.org'>Taylor Hudson</a>) or contact a club executive (type <span class='special'>team</span>) individually.",
+	contact: "Feel free to send us an email (<a href='mailto:Taylor.Hudson@allenisd.org'>Taylor Hudson</a>) or contact a club executive (type <span class='special'>team</span>) individually.",
 	team: [{
 		name: specialify("Bobby") + " Thakkar",
-		position: "JEDI"
+		position: "JEDI President"
 	}, {
 		name: specialify("Max") + " Patrick",
-		position: "Gambler"
+		position: "Stats Man Vice President"
 	}, {
 		name: specialify("Taylor") + " Hudson",
-		position: "Provider of Room"
+		position: "Sponsor"
 	}, {
 		name: specialify("Aashay") + " Patel",
-		position: "Most absent officer"
-	}, {
-		name: specialify("Bobby") + " Thakkar",
-		position: "Again, because he does so much."
+		position: "Present"
 	}],
 	competitions: "Competition schedule coming soon!",
 	links: [
