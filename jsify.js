@@ -49,7 +49,7 @@ var data = {
 		description: "Displays links to permission slips, resources, and more"
 	}, {
 		name: specialify("showcase"),
-		description: "Allen HS students\' cool projects"
+		description: "HS students\' cool projects"
 	}, {
 		name: specialify("contact"),
 		description: "Contact Allen High School Computer Science Organization club executives"
@@ -75,8 +75,10 @@ var data = {
 		position: "Again, because he does so much."
 	}],
 	competitions: "Competition schedule coming soon!",
-	links: linkify(HighSchool, "http://www.allenisd.org/allenhs")
-	       linkify(Taylor Hudson, "https://www.allenisd.org/Domain/3279"),
+	links: [linkify(HighSchool, "http://www.allenisd.org/allenhs"),
+		
+	       linkify(Taylor Hudson, "https://www.allenisd.org/Domain/3279")
+		],
 	showcase: [{
 		name: linkify("Cool Project Ideas?","http://github.com"),
 		authors: "By <span class='special'>you</span>? Contact us if you've made a cool project you'd like featured!"
