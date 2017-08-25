@@ -80,11 +80,11 @@ var data = {
 		{
 			name : linkify("Taylor Hudson", "https://www.allenisd.org/Domain/3279"),
 			description: "Faculty Page"
-		}
+		},
 		{
 			name : linkify("CSCI 1 : August - September", "https://github.com/AllenCompSci/August_September-2017"),
 			description: "Link to Computer Science 1 Notes and Assignments Seperated by Period" 
-		},
+		}
 		],
 	showcase: [{
 		name: linkify("Cool Project Ideas?","http://github.com"),
