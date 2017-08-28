@@ -51,6 +51,9 @@ var data = {
 		name: specialify("showcase"),
 		description: "HS students\' cool projects"
 	}, {
+		name: specialify("Share Drive"),
+		description: linkify("Link to Shared Information", "https://drive.google.com/open?id=0ByawmraG6eqVTlAzaWhyUzBEUUk")
+	}, {
 		name: specialify("contact"),
 		description: "Contact Allen High School Computer Science Organization club executives"
 	}, {
