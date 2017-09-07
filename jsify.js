@@ -76,7 +76,7 @@ var data = {
 	}, {
 		name: specialify("Deep") + " Desai",
 		position: "Secretary"
-	}{
+	},{
 		name: specialify("Historian") + " Ryan",
 		position: "Ryan"
 	},{
