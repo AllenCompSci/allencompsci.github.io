@@ -2,9 +2,9 @@
 
 var Teacher = "Taylor Hudson : Taylor.Hudson";
 
-var ClubPresident = "Bobby Thakkar";
+var ClubPresident = "Zach Gray";
 
-var ClubVP = "Max Patrick";
+var ClubVP = "Ayush";
 
 var HighSchool = "Allen High School";
 
@@ -62,18 +62,29 @@ var data = {
 	}],
 	contact: "Feel free to send us an email (<a href='mailto:Taylor.Hudson@allenisd.org'>Taylor Hudson</a>) or contact a club executive (type <span class='special'>team</span>) individually.",
 	team: [{
-		name: specialify("Bobby") + " Thakkar",
-		position: "JEDI President"
+		name: specialify("Bobby") + " Monacao",
+		position: "Rememberd JEDI President "
 	}, {
-		name: specialify("Max") + " Patrick",
-		position: "Stats Man Vice President"
+		name: specialify("Zach") + " Gray",
+		position: "President"
 	}, {
 		name: specialify("Taylor") + " Hudson",
 		position: "Sponsor"
 	}, {
-		name: specialify("Aashay") + " Patel",
-		position: "Present"
-	}],
+		name: specialify("Ayush") + " Agarwal",
+		position: "Vice President"
+	}, {
+		name: specialify("Deep") + " Desai",
+		position: "Secretary"
+	}{
+		name: specialify("Historian") + " Ryan",
+		position: "Ryan"
+	},{
+		name: specialify("Money Man") + " Ryan",
+		position: "Ryan"
+	},
+	       
+	      ],
 	competitions: "Competition schedule coming soon!",
 	links: [
 		{
