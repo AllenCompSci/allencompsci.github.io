@@ -82,7 +82,7 @@ var data = {
 	},{
 		name: specialify("Money Man") + " Ryan",
 		position: "Ryan"
-	},
+	}
 	       
 	      ],
 	competitions: "Competition schedule coming soon!",
