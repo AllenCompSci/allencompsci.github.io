@@ -82,8 +82,8 @@ var data = {
 		name: specialify("Historian") + " Ryan",
 		position: "Ryan"
 	},{
-		name: specialify("Money Man") + " Ryan",
-		position: "Ryan"
+		name: specialify("Ryan") + " King",
+		position: "Money Man"
 	}
 	       
 	      ],
