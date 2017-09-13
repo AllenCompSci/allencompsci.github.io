@@ -6,6 +6,8 @@ var ClubPresident = "Zach Gray";
 
 var ClubVP = "Ayush";
 
+var Secretary = "Deep";
+
 var HighSchool = "Allen High School";
 
 var ASCII = function(){
@@ -40,7 +42,7 @@ var data = {
 		description: "Display introduction message"
 	}, {
 		name: specialify("team"),
-		description: "Teacher : " + Teacher + "| Club President : " + ClubPresident + " | Club Vice President : " + ClubVP
+		description: "Teacher : " + Teacher + "| Club President : " + ClubPresident + " | Club Vice President : " + ClubVP + " | Secratary : " + Secretary
  	}, {
 		name: specialify("competitions"),
 		description: "Show upcoming algorithm competitions and hackathons"
