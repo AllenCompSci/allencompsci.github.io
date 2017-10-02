@@ -1,16 +1,24 @@
 ﻿var tilt = 0;
 
-var Teacher = "Taylor Hudson : Taylor.Hudson";
+var Teacher = "Taylor Hudson ";
 
 var ClubPresident = "Zach Gray";
 
-var ClubVP = "Ayush";
+var ClubVP = "Ayush Agarwal";
 
-var Secretary = "Deep";
+var Secretary = "Deep Desai";
+
+var Historian = "Ryan Noeske";
+
+var Secretary = "Ryan King";
 
 var HighSchool = "Allen High School";
 
 var ASCII = function(){
+/*return"                ___          __   __         __       ___  ___  __      __   __     ___       __   ___"+"\n"+
+				" /\  |    |    |__  |\ |    /  ` /  \  |\/| |__) |  |  |  |__  |__)    /__` /  ` | |__  |\ | /  ` |__"+"\n"+
+				"/--\ |___ |___ |___ | \|    \__, \__/  |  | |    \__/  |  |___ |  \    .__/ \__, | |___ | \| \__, |___"+"\n"
+*/
 return " $$$$$$\\  $$\\ $$\\                            $$$$$$\\                                           $$$$$$\\            $$\\ " + "\n" +
 	   "$$  __$$\\ $$ |$$ |                          $$  __$$\\                                         $$  __$$\\           \\__|" + "\n" +
 	   "$$ /  $$ |$$ |$$ | $$$$$$\\  $$$$$$$\\        $$ /  \\__| $$$$$$\\  $$$$$$\\$$$$\\   $$$$$$\\        $$ /  \\__| $$$$$$$\\ $$\\ " + "\n" +
@@ -22,6 +30,7 @@ return " $$$$$$\\  $$\\ $$\\                            $$$$$$\\                
 	   "                                                                              $$ |                                    " + "\n" +
 	   "                                                                              $$ |                                    " + "\n" +
 	   "                                                                              \\__|                                    " + "\n" ;
+
 };
 
 var linkify = function(text, url) {
@@ -33,82 +42,84 @@ var specialify = function(text) {
 };
 
 var data = {
-	hello: "Allen Computer Science aims to " + specialify("promote Computer Science, development and innovation") + "\n\tin the Allen community by providing " + specialify("an place to soar") + " to those interested in\n\tfurthering their pursuit of the field and attending " + specialify("competitions") + " ranging\n\tfrom " + specialify("hackathons") + " to " + specialify("algorithm contests") + ".",
-	help: [{
-		name: specialify("help"),
-		description: "Display all commands"
-	}, {
+	hello: "Welcome to Allen Computer Science, where we " + specialify("promote Computer Science, development and innovation") + "\n\tin the Allen community by providing " + specialify("an place to soar") + " for those interested in furthering their \n\tpursuit of the field and attending " + specialify("competitions") + " ranging from " + specialify("hackathons") + " to " + specialify("algorithm contests") + ". \n\tComputer Science club meets every Wednesday from 3:35 to 5, and works on multifaceted projects, \n\tranging from app to web to even game development.",
+	help: [ {
 		name: specialify("hello"),
-		description: "Display introduction message"
+		description: "Our mission statement"
 	}, {
 		name: specialify("team"),
-		description: "Teacher : " + Teacher + "| Club President : " + ClubPresident + " | Club Vice President : " + ClubVP + " | Secratary : " + Secretary
- 	}, {
+		description: "Our board and members"
+	}, {
 		name: specialify("competitions"),
-		description: "Show upcoming algorithm competitions and hackathons"
+		description: "Info about upcoming competitions and hackathons"
 	}, {
 		name: specialify("links"),
 		description: "Displays links to permission slips, resources, and more"
-	}, {
+	},{
 		name: specialify("showcase"),
 		description: "HS students\' cool projects"
-	}, {
-		name: specialify("Share Drive"),
-		description: linkify("Link to Shared Information", "https://drive.google.com/open?id=0ByawmraG6eqVTlAzaWhyUzBEUUk")
-	}, {
+	},{
 		name: specialify("contact"),
-		description: "Contact Allen High School Computer Science Organization club executives"
+		description: "Get in touch for outreach and info on projects"
 	}, {
 		name: specialify("twitter"),
-		description: linkify("@EagleHacks", "https://twitter.com/eaglehacks")
+		description: "Follow us " + linkify("@Allen_CompSci", "https://twitter.com/allen_compsci")
+	},
+	{
+		name: specialify("help"),
+		description: "Displays all commands"
 	}],
-	contact: "Feel free to send us an email (<a href='mailto:Taylor.Hudson@allenisd.org'>Taylor Hudson</a>) or contact a club executive (type <span class='special'>team</span>) individually.",
-	team: [{
-		name: specialify("Bobby") + " Monacao",
-		position: "Rememberd JEDI President "
-	}, {
+	contact:
+	[
+	{
+		name:"Contact <a href='mailto:Taylor.Hudson@allenisd.org'>Taylor Hudson</a>.",
+	},{
+		name:"Contact <a href='mailto:Allencomputerscience@gmail.com'>Computer Science Club</a>."
+	}],
+	team:
+	[{
+		name: specialify("Taylor") + " Hudson",
+		position: "Club Sponsor"
+	},
+	{
 		name: specialify("Zach") + " Gray",
 		position: "President"
-	}, {
-		name: specialify("Taylor") + " Hudson",
-		position: "Sponsor"
-	}, {
+	},
+	{
 		name: specialify("Ayush") + " Agarwal",
 		position: "Vice President"
-	}, {
+	},
+	{
 		name: specialify("Deep") + " Desai",
 		position: "Secretary"
 	},{
-		name: specialify("Historian") + " Ryan",
-		position: "Ryan"
+		name: specialify("Ryan") + " Noeske",
+		position: "Historian"
 	},{
 		name: specialify("Ryan") + " King",
-		position: "Money Man"
-	}
-	       
-	      ],
+		position: "Treasurer"
+	},
+	],
 	competitions: "Competition schedule coming soon!",
 	links: [
 		{
+			name : linkify("CS Classes' Github", "https://github.com/AllenCompSci"),
+			description: "Github for all CS classes, where projects and assignments are hosted."
+		},
+		{
+			name : linkify("CompSci Club Github", "https://github.com/orgs/allen-computer-science/dashboard"),
+			description: "Github for CompSci Club, where project and ideas are hosted."
+		},
+		{
 			name : linkify("Allen High School", "http://www.allenisd.org/allenhs"),
-			description: "Link back to AHS" 
 		},
 		{
 			name : linkify("Taylor Hudson", "https://www.allenisd.org/Domain/3279"),
-			description: "Faculty Page"
-		},
-		{
-			name : linkify("CSCI 1 : August - September", "https://github.com/AllenCompSci/August_September-2017"),
-			description: "Link to Computer Science 1 Notes and Assignments Seperated by Period" 
 		}
 		],
 	showcase: [{
-		name: linkify("Cool Project Ideas?","http://github.com"),
-		authors: "By <span class='special'>you</span>? Contact us if you've made a cool project you'd like featured!"
-	}],
-	soar:[{
-		name: linkify("Follow Us on GitHub", "http://github.com/allencompsci"), 
-		authors : "You."
+		name: linkify("Cool Projects we've made.","http://github.com/AllenCompSci"),
+		authors: "Look at projects which <span class='special'>highschool students</span> have made!"
 	}],
 	invalid: "That's not a valid command! Type <span class='special'>help</span> for a list of commands."
 };
@@ -172,7 +183,7 @@ var search = function(list, searchitem) {
 }
 
 $(function() {
-	var intro = ASCII() +"\n"+ "Welcome to Allen Computer Science at " + "Allen High School" +"!\nType 'hello' below to learn what we're all about! Try '?' for more.\n\n";
+	var intro = ASCII() +"\n"+ "Welcome to the Computer Science department at " + "Allen High School" +"!\nType 'hello' below to learn what we're all about! \nTry '?' for more.\n\n";
 	var jqconsole = $('#console').jqconsole(intro, 'C:\\Users\\Eagles> ');
 	var cout = function(input){
 		jqconsole.Write("     "+input.replace(/\n/g,'\n     ')+'\n', 'jqconsole-output', false);
