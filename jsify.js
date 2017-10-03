@@ -12,6 +12,8 @@ var Historian = "Ryan Noeske";
 
 var Secretary = "Ryan King";
 
+var AntiDeep = "Chris Delagarza";
+
 var HighSchool = "Allen High School";
 
 var ASCII = function(){
@@ -98,6 +100,9 @@ var data = {
 	},{
 		name: specialify("Ryan") + " King",
 		position: "Treasurer"
+	},{
+		name: specialify("Chris") + " Delegarza",
+		position: "AntiDeep"
 	},
 	],
 	competitions: "Competition schedule coming soon!",
