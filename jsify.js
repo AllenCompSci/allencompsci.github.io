@@ -12,6 +12,8 @@ var Historian = "Ryan Noeske";
 
 var Secretary = "Ryan King";
 
+var advisor= "Nathan Wander";
+
 var AntiDeep = "Chris Delagarza";
 
 var HighSchool = "Allen High School";
@@ -103,7 +105,10 @@ var data = {
 	},{
 		name: specialify("Chris") + " Delegarza",
 		position: "AntiDeep"
-	},
+	},{
+		name: specialify("Nathan") + " Wander",
+		position: "Advisor"
+	},	
 	],
 	competitions: "Competition schedule coming soon!",
 	links: [
