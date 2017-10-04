@@ -125,6 +125,12 @@ var data = {
 		},
 		{
 			name : linkify("Taylor Hudson", "https://www.allenisd.org/Domain/3279"),
+		},
+		{
+			name : linkify("CSCI 1 : Aug - Sept", "https://github.com/AllenCompSci/August_September-2017"),
+		},
+		{
+			name : linkify("CSCI 1 : Oct - Dec", "https://github.com/AllenCompSci/October_December_2017"),
 		}
 		],
 	showcase: [{
