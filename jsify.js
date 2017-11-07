@@ -117,7 +117,7 @@ var data = {
 			description: "Github for all CS classes, where projects and assignments are hosted."
 		},
 		{
-			name : linkify("CompSci Club Github", "https://github.com/orgs/allen-computer-science/dashboard"),
+			name : linkify("CompSci Club Github", "https://github.com/orgs/allen-computer-science/dashboard", "https://github.com/Vathys/Neural-Network"),
 			description: "Github for CompSci Club, where project and ideas are hosted."
 		},
 		{
